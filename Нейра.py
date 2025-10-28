@@ -80,7 +80,7 @@ if password == p:
         chan1.play(mem1)
     today = dt.date.today()
     day = today.strftime("%d.%m")
-    def birthday():
+    '''def birthday():
         birthdays = {
             "14.02": "вас",
             "22.03": "Мирославу",
@@ -91,7 +91,7 @@ if password == p:
         if day in birthdays:
             name = birthdays[day]
             print(f'Поздравляю {name} с днём рождения!')
-            speaker.Speak(f'Поздравляю {name} с днём рождения!')
+            speaker.Speak(f'Поздравляю {name} с днём рождения!')'''
     def party():
         par = {
             "31.12": "Новым годом",
